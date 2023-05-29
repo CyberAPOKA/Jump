@@ -19,3 +19,4 @@ use Inertia\Inertia;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::post('register-service', [HomeController::class, 'registerService'])->name('register.service');
+Route::post('register-user', [HomeController::class, 'registerUser'])->name('register.user');
